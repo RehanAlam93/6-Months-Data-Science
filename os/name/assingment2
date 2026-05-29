@@ -1,0 +1,30 @@
+# file handling and user data managment concept
+
+import os
+
+# User Input
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+gender = input("Enter your gender: ")
+address = input("Enter your address: ")
+dob = input("Enter your date of birth: ")
+email=input("enter your email id  : ")
+
+# Folder Create
+folder_name = first_name
+
+if not os.path.exists(folder_name):
+    os.mkdir(folder_name)
+
+# File Path
+file_path = os.path.join(folder_name, f"{first_name}.txt")
+
+# Data Save in TXT File
+with open(file_path, "w") as file:
+    file.write(f"First Name : {first_name}\n")
+    file.write(f"Last Name  : {last_name}\n")
+    file.write(f"Gender     : {gender}\n")
+    file.write(f"Address    : {address}\n")
+    file.write(f"DOB        : {dob}\n")
+    file.write(f"email id : {email}")
+print("Data saved successfully!")

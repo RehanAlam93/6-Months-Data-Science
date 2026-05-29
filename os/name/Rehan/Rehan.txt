@@ -1,0 +1,6 @@
+First Name : Rehan
+Last Name  : Alam
+Gender     : male
+Address    : jaipur
+DOB        : 02/03/2004
+email id : rehan000787@gmail.com

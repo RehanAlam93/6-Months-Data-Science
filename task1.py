@@ -1,10 +1,8 @@
 # >>>>>>>>>>>>>>>>>>find reverse <<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>
 
-# name="hello i am rehan"
+# name="rehan"
 # reverse=''.join(reversed(name))
 # print(reverse)
-
-
 #>>>>>>lower case or casefold<<<<<<<<<<<<<<<<<<<<>>>>>>>>><<<<<<<<<<<
 
 # name="rehan"
@@ -60,12 +58,12 @@
 # print(lst)
 
 
-num=int(input("enter a number : "))
-if num>=0 and num%2==0:
-    print("positive and even")
-elif num>0 and num%2!=0:
-    print("positive and odd")
-elif num<0 and  num%2==0:
-    print("negative and even")
-else:
-    print("negative and odd")
+# num=int(input("enter a number : "))
+# if num>=0 and num%2==0:
+#     print("positive and even")
+# elif num>0 and num%2!=0:
+#     print("positive and odd")
+# elif num<0 and  num%2==0:
+#     print("negative and even")
+# else:
+#     print("negative and odd")
